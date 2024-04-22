@@ -6,6 +6,7 @@ $(window).on('load',function(){
   gsap.to('#navigation-content',0,{display:"none"});
   gsap.to('#navigation-content',0,{display:"flex",delay:1});
 })
+
 $(function(){
   $('.color-panel').on("click",function(e) {
     e.preventDefault();
@@ -190,3 +191,4 @@ $(function(){
   $('.navigation-close').hover(cursorhover,cursor);
 
 })
+
